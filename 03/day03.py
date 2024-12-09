@@ -1,13 +1,11 @@
-import re
 import sys
-sys.path.append("play/advent2024/")
+sys.path.append("play/aoc-2024/")
 from common import *
 
 ###############################################################################
 # CODE
 ###############################################################################
 
-lines = get_input('play/advent2024/03/practice.txt')
 # PART1
 def part1_calc(lines):
     running_total = 0
@@ -37,10 +35,10 @@ def part2_calc(lines):
 # RUNNING
 ###############################################################################
 day   = 3
-lines = get_input(f'play/advent2024/{day:02}/practice.txt')
+lines = get_input(f'play/aoc-2024/{day:02}/practice.txt')
 check_aoc(day, 'practice part 1', part1_calc(lines), 161)
 check_aoc(day, 'practice part 2', part2_calc(lines), 48)
 
-lines = get_input(f'play/advent2024/{day:02}/real.txt')
+lines = get_input(f'play/aoc-2024/{day:02}/real.txt')
 check_aoc(day, 'for real part 1', part1_calc(lines), 157621318)
 check_aoc(day, 'for real part 2', part2_calc(lines), 79845780)

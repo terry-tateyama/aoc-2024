@@ -1,5 +1,5 @@
 import sys
-sys.path.append("play/advent2024/")
+sys.path.append("play/aoc-2024/")
 from common import *
 
 ###############################################################################
@@ -39,10 +39,10 @@ def part2_calc(lines):
 # RUNNING
 ###############################################################################
 day   = 1
-lines = get_input(f'play/advent2024/{day:02}/practice.txt')
+lines = get_input(f'play/aoc-2024/{day:02}/practice.txt')
 check_aoc(day, 'practice part 1', part1_calc(lines), 11)
 check_aoc(day, 'practice part 2', part2_calc(lines), 31)
 
-lines = get_input(f'play/advent2024/{day:02}/real.txt')
+lines = get_input(f'play/aoc-2024/{day:02}/real.txt')
 check_aoc(day, 'for real part 1', part1_calc(lines), 1319616)
 check_aoc(day, 'for real part 2', part2_calc(lines), 27267728)
