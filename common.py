@@ -1,7 +1,7 @@
 import copy
 import re
 import sys
-# sys.setrecursionlimit(15000)
+sys.setrecursionlimit(15000)
 import itertools
 
 ###############################################################################
