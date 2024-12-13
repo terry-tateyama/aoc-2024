@@ -3,6 +3,7 @@ import re
 import sys
 sys.setrecursionlimit(15000)
 import itertools
+from   collections import defaultdict
 
 ###############################################################################
 # COMMON
